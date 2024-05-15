@@ -1,22 +1,22 @@
 name: dockercompose12129043848937960511
 services:
-  webapplication1:
+  backend:
     build:
       context: C:\Users\vampy\OneDrive\Рабочий стол\business-calendar\WebApplication1
       dockerfile: WebApplication1/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_HTTP_PORTS: "8080"
-      ASPNETCORE_HTTPS_PORTS: "8081"
     image: webapplication1
     networks:
       default: null
     ports:
       - mode: ingress
         target: 8080
+        published: "5000"
         protocol: tcp
       - mode: ingress
         target: 8081
+        published: "5001"
         protocol: tcp
     volumes:
       - type: bind
@@ -29,6 +29,33 @@ services:
         source: C:\Users\vampy\AppData\Roaming/ASP.NET/Https
         target: /home/app/.aspnet/https
         read_only: true
+        bind:
+          create_host_path: true
+  company:
+    build:
+      context: C:\Users\vampy\OneDrive\Рабочий стол\business-calendar\WebApplication1\company
+      dockerfile: Dockerfile
+    image: company
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 3000
+        published: "5002"
+        protocol: tcp
+  proxy:
+    image: nginx:mainline
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\vampy\OneDrive\Рабочий стол\business-calendar\WebApplication1\nginx.conf
+        target: /etc/nginx/nginx.conf
         bind:
           create_host_path: true
 networks:

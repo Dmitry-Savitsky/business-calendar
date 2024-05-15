@@ -1,6 +1,6 @@
 name: dockercompose12129043848937960511
 services:
-  webapplication1:
+  backend:
     build:
       context: C:\Users\vampy\OneDrive\Рабочий стол\business-calendar\WebApplication1
       dockerfile: WebApplication1/Dockerfile
@@ -17,8 +17,6 @@ services:
       - /dev/null
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_HTTP_PORTS: "8080"
-      ASPNETCORE_HTTPS_PORTS: "8081"
       ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS: "true"
       DOTNET_USE_POLLING_FILE_WATCHER: "1"
       NUGET_FALLBACK_PACKAGES: ""
@@ -33,9 +31,11 @@ services:
     ports:
       - mode: ingress
         target: 8080
+        published: "5000"
         protocol: tcp
       - mode: ingress
         target: 8081
+        published: "5001"
         protocol: tcp
     tty: true
     volumes:
@@ -100,6 +100,33 @@ services:
         source: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload
         target: /HotReloadAgent
         read_only: true
+        bind:
+          create_host_path: true
+  company:
+    build:
+      context: C:\Users\vampy\OneDrive\Рабочий стол\business-calendar\WebApplication1\company
+      dockerfile: Dockerfile
+    image: company
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 3000
+        published: "5002"
+        protocol: tcp
+  proxy:
+    image: nginx:mainline
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "80"
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\vampy\OneDrive\Рабочий стол\business-calendar\WebApplication1\nginx.conf
+        target: /etc/nginx/nginx.conf
         bind:
           create_host_path: true
 networks:
