@@ -1,0 +1,8 @@
+export const EXECUTORS_ROUTE = '/executors'
+export const ORDERS_ROUTE = '/orders'
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const SERVICES_ROUTE = '/services'
+export const FAQ_ROUTE = '/faq'
+export const MAIN_ROUTE = '/'
+export const REVIEWS_ROUTE = '/reviews'

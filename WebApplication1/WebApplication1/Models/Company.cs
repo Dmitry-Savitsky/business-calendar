@@ -21,7 +21,7 @@ namespace WebApplication1.Models
         [StringLength(45)]
         public string Login { get; set; }
 
-        [StringLength(45)]
+        [StringLength(255)]
         public string Password { get; set; }
 
         // Navigation properties
