@@ -15,7 +15,7 @@ const Auth = observer(() => {
   const { user } = useContext(Context);
   const navigate = useNavigate();
 
-  const [login, setLogin] = useState('');
+  const [loginData, setLogin] = useState('');
   const [password, setPassword] = useState('');
   const [companyName, setCompanyName] = useState('');
   const [companyPhone, setCompanyPhone] = useState('');
@@ -23,7 +23,7 @@ const Auth = observer(() => {
 
   const handleLogin = async () => {
     try {
-      const data = await login(login, password);
+      const data = await login(loginData, password);
       user.setUser(data);
       user.setIsAuth(true);
       navigate('/'); // Redirect to home page or dashboard after login
@@ -34,7 +34,7 @@ const Auth = observer(() => {
 
   const handleRegister = async () => {
     try {
-      const data = await registration(companyName, companyPhone, companyAddress, login, password);
+      const data = await registration(companyName, companyPhone, companyAddress, loginData, password);
       user.setUser(data);
       user.setIsAuth(true);
       navigate('/'); // Redirect to home page or dashboard after registration
@@ -50,7 +50,7 @@ const Auth = observer(() => {
         <Form.Control
           type="text"
           placeholder="Login"
-          value={login}
+          value={loginData}
           onChange={(e) => setLogin(e.target.value)}
         />
         <Form.Control

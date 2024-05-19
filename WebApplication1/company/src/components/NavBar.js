@@ -44,7 +44,6 @@ const NavBar = observer(() => {
               </>
             ) : (
               <>
-                <Nav.Link as={NavLink} to={SERVICES_ROUTE}>Services</Nav.Link>
                 <Nav.Link as={NavLink} to={FAQ_ROUTE}>FAQ</Nav.Link>
                 <Nav.Link as={NavLink} to={LOGIN_ROUTE}>Login</Nav.Link>
                 <Nav.Link as={NavLink} to={REGISTRATION_ROUTE}>Register</Nav.Link>

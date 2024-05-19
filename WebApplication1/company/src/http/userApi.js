@@ -15,7 +15,7 @@ export const registration = async (companyName, companyPhone, companyAddress, lo
         localStorage.setItem('token', data.token);
         localStorage.setItem('isAuth', 'true');
 
-        return jwtDecode(data.token);
+        return data.token;
     } catch (error) {
         console.error('Registration error:', error);
         throw error;
@@ -29,7 +29,7 @@ export const login = async (login, password) => {
         localStorage.setItem('token', data.token);
         localStorage.setItem('isAuth', 'true');
 
-        return jwtDecode(data.token);
+        return data.token;
     } catch (error) {
         console.error('Login error:', error);
         throw error;

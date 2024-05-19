@@ -2,6 +2,7 @@ import React, { createContext } from 'react';
 import { createRoot } from 'react-dom/client'; // Import createRoot from react-dom/client
 import App from './App';
 import UserStore from './store/UserStore';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Context = createContext(null);
 
