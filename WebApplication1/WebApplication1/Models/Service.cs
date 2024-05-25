@@ -6,7 +6,6 @@ namespace WebApplication1.Models
     public class Service
     {
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int IdService { get; set; }
 
         [Required]
@@ -20,8 +19,6 @@ namespace WebApplication1.Models
 
         public int IdCompany { get; set; }
 
-        // Navigation properties
-        [ForeignKey("IdCompany")]
-        public Company Company { get; set; }
+        public Company? Company { get; set; }
     }
 }

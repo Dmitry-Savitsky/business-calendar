@@ -16,13 +16,10 @@ namespace WebApplication1.Models
         public int ReviewRating { get; set; }
 
         public int IdClient { get; set; }
+        public Client? Client { get; set; }
+
+
         public int IdOrder { get; set; }
-
-        // Navigation properties
-        [ForeignKey("IdClient")]
-        public Client Client { get; set; }
-
-        [ForeignKey("IdOrder")]
-        public Order Order { get; set; }
+        public Order? Order { get; set; }
     }
 }

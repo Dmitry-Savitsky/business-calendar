@@ -13,9 +13,6 @@ namespace WebApplication1.Models
         [StringLength(255)]
         public string OrderComment { get; set; }
 
-        public int IdClient { get; set; }
-        public int IdService { get; set; }
-        public int IdClientAddress { get; set; }
 
         [Required]
         public DateTime OrderStart { get; set; }
@@ -25,14 +22,13 @@ namespace WebApplication1.Models
         public bool? Confirmed { get; set; }
         public bool? Completed { get; set; }
 
-        // Navigation properties
-        [ForeignKey("IdClient")]
-        public Client Client { get; set; }
+        public int IdClient { get; set; }
+        public Client? Client { get; set; }
 
-        [ForeignKey("IdService")]
-        public Service Service { get; set; }
+        public int IdService { get; set; }
+        public Service? Service { get; set; }
 
-        [ForeignKey("IdClientAddress")]
-        public ClientAddress ClientAddress { get; set; }
+        public int IdClientAddress { get; set; }
+        public ClientAddress? ClientAddress { get; set; }
     }
 }

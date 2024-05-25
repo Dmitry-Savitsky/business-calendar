@@ -6,13 +6,9 @@ namespace WebApplication1.Models
     public class ExecutorHasService
     {
         public int IdExecutor { get; set; }
+        public Executor? Executor { get; set; }
+
         public int IdService { get; set; }
-
-        // Navigation properties
-        [ForeignKey("IdExecutor")]
-        public Executor Executor { get; set; }
-
-        [ForeignKey("IdService")]
-        public Service Service { get; set; }
+        public Service? Service { get; set; }
     }
 }

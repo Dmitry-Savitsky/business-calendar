@@ -18,9 +18,6 @@ namespace WebApplication1.Models
         public string ExecutorPhone { get; set; }
 
         public int IdCompany { get; set; }
-
-        // Navigation properties
-        [ForeignKey("IdCompany")]
-        public Company Company { get; set; }
+        public Company? Company { get; set; }
     }
 }

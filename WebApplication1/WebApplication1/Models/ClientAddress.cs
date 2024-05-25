@@ -13,9 +13,6 @@ namespace WebApplication1.Models
         public string Address { get; set; }
 
         public int IdClient { get; set; }
-
-        // Navigation properties
-        [ForeignKey("IdClient")]
-        public Client Client { get; set; }
+        public Client? Client { get; set; }
     }
 }

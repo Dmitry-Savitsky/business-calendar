@@ -3,58 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240516180901_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240516180901_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\controllers\\executorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\controllers\\executorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\executorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -62,20 +14,116 @@
       "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\data\\repairmanagementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\executor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\executor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\companyhasorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\companyhasorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\executorhasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\executorhasservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\orderhasexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\orderhasexecutor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522200209_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240522200209_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\models\\clientaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\clientaddress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522194255_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240522194255_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240519210101_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240519210101_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240519195315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240519195315_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240516180901_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WebApplication1\\Migrations\\20240516180901_SecondMigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6A4D836B-E429-4337-9CC0-A7DA1F7D2CAE}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|c:\\users\\vampy\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\webapplication1\\webapplication1\\migrations\\20240516181135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\migrations\\20240516181135_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522200722_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37DA3A85-3F49-4381-8090-AB7B4C22EF59}|WebApplication1\\WebApplication1.csproj|solutionrelative:WebApplication1\\Migrations\\20240522200722_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -85,8 +133,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 218,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepairManagementDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Data\\RepairManagementDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Data\\RepairManagementDbContext.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Data\\RepairManagementDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Data\\RepairManagementDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:52:16.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Order.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:50:48.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-15T20:59:52.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-05-14T19:56:53.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-05-14T19:58:01.998Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -102,54 +211,89 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-05-14T19:56:53.135Z",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AQIAAJgBAAAAAAAAAAAiwK4BAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-05-17T07:23:16.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-05-14T19:58:01.998Z",
+              "DocumentIndex": 1,
+              "Title": "ExecutorController.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\ExecutorController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ExecutorController.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\ExecutorController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ExecutorController.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAcwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T19:54:05.659Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIA9wBwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T17:30:20.614Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\.dockerignore",
-              "RelativeDocumentMoniker": ".dockerignore",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\.dockerignore",
-              "RelativeToolTip": ".dockerignore",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAjwCEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T19:20:10.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Dockerfile",
+              "RelativeDocumentMoniker": "WebApplication1\\Dockerfile",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Dockerfile",
+              "RelativeToolTip": "WebApplication1\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-15T20:59:52.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T12:06:29.451Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "RepairManagementDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Data\\RepairManagementDbContext.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Data\\RepairManagementDbContext.cs",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Data\\RepairManagementDbContext.cs",
-              "RelativeToolTip": "WebApplication1\\Data\\RepairManagementDbContext.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAmwHwAAAABAAAA",
+              "Title": "OrderHasExecutor.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\OrderHasExecutor.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\OrderHasExecutor.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\OrderHasExecutor.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\OrderHasExecutor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T16:52:16.253Z"
+              "WhenOpened": "2024-05-19T19:27:39.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240522200722_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522200722_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240522200722_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522200722_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240522200722_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:07:22.473Z"
             },
             {
               "$type": "Document",
@@ -159,13 +303,133 @@
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Company.cs",
               "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Company.cs",
               "RelativeToolTip": "WebApplication1\\Models\\Company.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAsAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwB4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T17:17:46.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
+              "Title": "CompanyHasOrder.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\CompanyHasOrder.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\CompanyHasOrder.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\CompanyHasOrder.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\CompanyHasOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:51:13.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Review.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Review.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Review.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Review.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAgwBgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:50:31.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Service.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Service.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:50:25.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ExecutorHasService.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\ExecutorHasService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ExecutorHasService.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\ExecutorHasService.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ExecutorHasService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:25:16.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Executor.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Executor.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Executor.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Executor.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Executor.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T17:55:50.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240522200209_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522200209_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240522200209_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522200209_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240522200209_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T20:02:10.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Client.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Client.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAsAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T09:17:52.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ClientAddress.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\ClientAddress.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\ClientAddress.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\ClientAddress.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\ClientAddress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:51:25.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240522194255_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522194255_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240522194255_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240522194255_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240522194255_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T19:42:56.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20240519210101_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240519210101_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240519210101_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240519210101_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240519210101_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T21:01:02.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
@@ -173,12 +437,23 @@
               "RelativeToolTip": "WebApplication1\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T16:49:40.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T16:49:40.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 23,
+              "Title": "20240519195315_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240519195315_InitialCreate.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240519195315_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240519195315_InitialCreate.cs",
+              "RelativeToolTip": "WebApplication1\\Migrations\\20240519195315_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T19:53:15.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
@@ -186,75 +461,11 @@
               "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-16T16:50:01.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T16:50:01.902Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WebApplication1.http",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\WebApplication1.http",
-              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.http",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\WebApplication1.http",
-              "RelativeToolTip": "WebApplication1\\WebApplication1.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-14T19:53:15.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ExecutorController.cs",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\ExecutorController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ExecutorController.cs",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\ExecutorController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ExecutorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:54:05.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:20:10.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAuwEgAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T17:30:20.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Client.cs",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Client.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\Client.cs",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Models\\Client.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\Client.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T09:17:52.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "20240516180901_SecondMigration.cs",
               "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240516180901_SecondMigration.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240516180901_SecondMigration.cs",
@@ -266,31 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
-              "ViewState": "AQIAAJcBAAAAAAAAAAAAwLIBAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-05-17T07:23:16.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "20240516181135_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240516181135_InitialCreate.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Migrations\\20240516181135_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Migrations\\20240516181135_InitialCreate.cs",
-              "RelativeToolTip": "WebApplication1\\Migrations\\20240516181135_InitialCreate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T18:11:35.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 27,
               "Title": "WebApplication1.csproj",
               "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
@@ -303,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 28,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\launchSettings.json",
               "RelativeDocumentMoniker": "launchSettings.json",
@@ -315,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 29,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\vampy\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\business-calendar\\WebApplication1\\WebApplication1\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebApplication1\\Properties\\launchSettings.json",

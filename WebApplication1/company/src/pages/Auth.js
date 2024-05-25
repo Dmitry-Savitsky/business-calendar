@@ -8,6 +8,7 @@ import { registration, login } from '../http/userApi';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { LOGIN_ROUTE, REGISTRATION_ROUTE } from '../utils/consts';
+import { jwtDecode } from 'jwt-decode';
 
 const Auth = observer(() => {
   const location = useLocation();
@@ -20,6 +21,23 @@ const Auth = observer(() => {
   const [companyName, setCompanyName] = useState('');
   const [companyPhone, setCompanyPhone] = useState('');
   const [companyAddress, setCompanyAddress] = useState('');
+
+  const getTokenData = () => {
+    const token = localStorage.getItem('token');
+    if (token) {
+      const decodedToken = jwtDecode(token);
+      return decodedToken;
+    }
+    return null;
+  };
+
+  const tokenData = getTokenData();
+  if (tokenData) {
+    const idCompany = tokenData["http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier"];
+    console.log("idCompany:" + idCompany);
+  } else {
+    console.log("No token found in localStorage");
+  }
 
   const handleLogin = async () => {
     try {
@@ -85,7 +103,7 @@ const Auth = observer(() => {
           {isLogin ? 'Login' : 'Register'}
         </Button>
         {isLogin ? (
-          <NavLink to= {REGISTRATION_ROUTE}>Need an account?</NavLink>
+          <NavLink to={REGISTRATION_ROUTE}>Need an account?</NavLink>
         ) : (
           <NavLink to="/login">Already have an account?</NavLink>
         )}
