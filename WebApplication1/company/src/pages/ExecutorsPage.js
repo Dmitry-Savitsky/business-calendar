@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { fetchExecutors, createExecutor, deleteExecutor } from '../http/executorApi'; // Предполагается, что api находится в файле executorApi.js
+import { fetchExecutors, createExecutor, deleteExecutor } from '../http/executorApi'; // Проверьте правильность пути
+import { Button, Form, Container, Row, Col, Table } from 'react-bootstrap';
 
 const ExecutorsPage = () => {
     const [executors, setExecutors] = useState([]);
@@ -13,7 +14,7 @@ const ExecutorsPage = () => {
     const loadExecutors = async () => {
         try {
             const data = await fetchExecutors();
-            setExecutors(data);
+            setExecutors(data.$values || []);
         } catch (error) {
             console.error(error);
         }
@@ -40,30 +41,71 @@ const ExecutorsPage = () => {
     };
 
     return (
-        <div>
-            <h1>Executors</h1>
-            <input
-                type="text"
-                placeholder="Executor Name"
-                value={executorName}
-                onChange={(e) => setExecutorName(e.target.value)}
-            />
-            <input
-                type="text"
-                placeholder="Executor Phone"
-                value={executorPhone}
-                onChange={(e) => setExecutorPhone(e.target.value)}
-            />
-            <button onClick={handleCreateExecutor}>Add Executor</button>
-            <ul>
-                {executors.map(executor => (
-                    <li key={executor.idExecutor}>
-                        {executor.executorName} - {executor.executorPhone}
-                        <button onClick={() => handleDeleteExecutor(executor.idExecutor)}>Delete</button>
-                    </li>
-                ))}
-            </ul>
-        </div>
+        <Container>
+            <Row className="my-4">
+                <Col>
+                    <h1>Executors</h1>
+                </Col>
+            </Row>
+            <Row className="mb-4">
+                <Col md={6}>
+                    <Form>
+                        <Form.Group controlId="executorName">
+                            <Form.Label>Executor Name</Form.Label>
+                            <Form.Control
+                                type="text"
+                                placeholder="Enter executor name"
+                                value={executorName}
+                                onChange={(e) => setExecutorName(e.target.value)}
+                            />
+                        </Form.Group>
+                        <Form.Group controlId="executorPhone">
+                            <Form.Label>Executor Phone</Form.Label>
+                            <Form.Control
+                                type="text"
+                                placeholder="Enter executor phone"
+                                value={executorPhone}
+                                onChange={(e) => setExecutorPhone(e.target.value)}
+                            />
+                        </Form.Group>
+                        <Button variant="primary" onClick={handleCreateExecutor} className="mt-3">
+                            Add Executor
+                        </Button>
+                    </Form>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <Table striped bordered hover>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Phone</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {executors.map((executor, index) => (
+                                <tr key={executor.idExecutor}>
+                                    <td>{index + 1}</td>
+                                    <td>{executor.executorName}</td>
+                                    <td>{executor.executorPhone}</td>
+                                    <td>
+                                        <Button
+                                            variant="danger"
+                                            onClick={() => handleDeleteExecutor(executor.idExecutor)}
+                                        >
+                                            Delete
+                                        </Button>
+                                    </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </Table>
+                </Col>
+            </Row>
+        </Container>
     );
 };
 

@@ -1,6 +1,6 @@
 import { $host } from ".";
 //import { $host } from './http';
-import jwtDecode from 'jwt-decode';
+import {jwtDecode} from 'jwt-decode';
 
 export const registration = async (companyName, companyPhone, companyAddress, login, password) => {
     try {

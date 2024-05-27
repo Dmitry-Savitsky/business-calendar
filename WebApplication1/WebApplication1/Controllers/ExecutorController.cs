@@ -5,6 +5,8 @@ using WebApplication1.Models;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace WebApplication1.Controllers
@@ -19,12 +21,32 @@ namespace WebApplication1.Controllers
         {
             _context = context;
         }
-
-        // GET: api/Executors/5
-        [HttpGet("{idCompany}")]
-        public async Task<ActionResult<IEnumerable<Executor>>> GetExecutors(int idCompany)
+        public class ExecutorDto
         {
-            return await _context.Executors.Where(e => e.IdCompany == idCompany).ToListAsync();
+            public int IdExecutor { get; set; }
+            public string ExecutorName { get; set; }
+            public string ExecutorPhone { get; set; }
+            public int IdCompany { get; set; }
+        }
+
+
+        // GET: api/executors/{idCompany}
+        [HttpGet("{idCompany}")]
+        public async Task<ActionResult<IEnumerable<ExecutorDto>>> GetExecutors(int idCompany)
+        {
+            var executors = await _context.Executors
+                                          .Where(e => e.IdCompany == idCompany)
+                                          .ToListAsync();
+
+            var executorDtos = executors.Select(e => new ExecutorDto
+            {
+                IdExecutor = e.IdExecutor,
+                ExecutorName = e.ExecutorName,
+                ExecutorPhone = e.ExecutorPhone,
+                IdCompany = e.IdCompany
+            });
+
+            return Ok(executorDtos);
         }
 
         public class ExecutorCreationDto
@@ -37,11 +59,10 @@ namespace WebApplication1.Controllers
             [StringLength(45)]
             public string ExecutorPhone { get; set; }
 
-            // Дополнительно можно добавить идентификатор компании, если он передается в запросе
             public int IdCompany { get; set; }
         }
 
-        // POST: api/Executors
+        // POST: api/executors
         [HttpPost]
         public async Task<ActionResult<Executor>> PostExecutor([FromBody] ExecutorCreationDto dto)
         {
@@ -62,10 +83,13 @@ namespace WebApplication1.Controllers
             _context.Executors.Add(executor);
             await _context.SaveChangesAsync();
 
+            // Загрузите связанную сущность Company
+            await _context.Entry(executor).Reference(e => e.Company).LoadAsync();
+
             return CreatedAtAction("GetExecutors", new { idCompany = executor.IdCompany }, executor);
         }
 
-        // DELETE: api/Executors/5
+        // DELETE: api/executors/{idExecutor}
         [HttpDelete("{idExecutor}")]
         public async Task<IActionResult> DeleteExecutor(int idExecutor)
         {

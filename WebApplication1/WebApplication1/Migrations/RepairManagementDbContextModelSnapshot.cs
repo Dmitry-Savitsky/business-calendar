@@ -58,15 +58,10 @@ namespace WebApplication1.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("varchar(150)");
 
-                    b.Property<int?>("ClientIdClient")
-                        .HasColumnType("int");
-
                     b.Property<int>("IdClient")
                         .HasColumnType("int");
 
                     b.HasKey("IdClientAddress");
-
-                    b.HasIndex("ClientIdClient");
 
                     b.HasIndex("IdClient");
 
@@ -111,21 +106,6 @@ namespace WebApplication1.Migrations
                     b.ToTable("Companies");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.CompanyHasOrder", b =>
-                {
-                    b.Property<int>("CompanyIdCompany")
-                        .HasColumnType("int");
-
-                    b.Property<int>("OrderIdOrder")
-                        .HasColumnType("int");
-
-                    b.HasKey("CompanyIdCompany", "OrderIdOrder");
-
-                    b.HasIndex("OrderIdOrder");
-
-                    b.ToTable("CompanyHasOrders");
-                });
-
             modelBuilder.Entity("WebApplication1.Models.Executor", b =>
                 {
                     b.Property<int>("IdExecutor")
@@ -133,9 +113,6 @@ namespace WebApplication1.Migrations
                         .HasColumnType("int");
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdExecutor"));
-
-                    b.Property<int?>("CompanyIdCompany")
-                        .HasColumnType("int");
 
                     b.Property<string>("ExecutorName")
                         .IsRequired()
@@ -151,8 +128,6 @@ namespace WebApplication1.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("IdExecutor");
-
-                    b.HasIndex("CompanyIdCompany");
 
                     b.HasIndex("IdCompany");
 
@@ -182,9 +157,6 @@ namespace WebApplication1.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdOrder"));
 
-                    b.Property<int?>("ClientIdClient")
-                        .HasColumnType("int");
-
                     b.Property<bool?>("Completed")
                         .HasColumnType("tinyint(1)");
 
@@ -195,6 +167,9 @@ namespace WebApplication1.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("IdClientAddress")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdCompany")
                         .HasColumnType("int");
 
                     b.Property<int>("IdService")
@@ -213,11 +188,11 @@ namespace WebApplication1.Migrations
 
                     b.HasKey("IdOrder");
 
-                    b.HasIndex("ClientIdClient");
-
                     b.HasIndex("IdClient");
 
                     b.HasIndex("IdClientAddress");
+
+                    b.HasIndex("IdCompany");
 
                     b.HasIndex("IdService");
 
@@ -247,9 +222,6 @@ namespace WebApplication1.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdReview"));
 
-                    b.Property<int?>("ClientIdClient")
-                        .HasColumnType("int");
-
                     b.Property<int>("IdClient")
                         .HasColumnType("int");
 
@@ -266,8 +238,6 @@ namespace WebApplication1.Migrations
 
                     b.HasKey("IdReview");
 
-                    b.HasIndex("ClientIdClient");
-
                     b.HasIndex("IdClient");
 
                     b.HasIndex("IdOrder");
@@ -283,9 +253,6 @@ namespace WebApplication1.Migrations
 
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("IdService"));
 
-                    b.Property<int?>("CompanyIdCompany")
-                        .HasColumnType("int");
-
                     b.Property<int>("IdCompany")
                         .HasColumnType("int");
 
@@ -295,14 +262,13 @@ namespace WebApplication1.Migrations
                         .HasColumnType("varchar(255)");
 
                     b.Property<int?>("ServicePrice")
+                        .IsRequired()
                         .HasColumnType("int");
 
                     b.Property<int>("ServiceType")
                         .HasColumnType("int");
 
                     b.HasKey("IdService");
-
-                    b.HasIndex("CompanyIdCompany");
 
                     b.HasIndex("IdCompany");
 
@@ -311,12 +277,8 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.ClientAddress", b =>
                 {
-                    b.HasOne("WebApplication1.Models.Client", null)
-                        .WithMany("ClientAddresses")
-                        .HasForeignKey("ClientIdClient");
-
                     b.HasOne("WebApplication1.Models.Client", "Client")
-                        .WithMany()
+                        .WithMany("ClientAddresses")
                         .HasForeignKey("IdClient")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -324,33 +286,10 @@ namespace WebApplication1.Migrations
                     b.Navigation("Client");
                 });
 
-            modelBuilder.Entity("WebApplication1.Models.CompanyHasOrder", b =>
-                {
-                    b.HasOne("WebApplication1.Models.Company", "Company")
-                        .WithMany()
-                        .HasForeignKey("CompanyIdCompany")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("WebApplication1.Models.Order", "Order")
-                        .WithMany()
-                        .HasForeignKey("OrderIdOrder")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Company");
-
-                    b.Navigation("Order");
-                });
-
             modelBuilder.Entity("WebApplication1.Models.Executor", b =>
                 {
-                    b.HasOne("WebApplication1.Models.Company", null)
-                        .WithMany("Executors")
-                        .HasForeignKey("CompanyIdCompany");
-
                     b.HasOne("WebApplication1.Models.Company", "Company")
-                        .WithMany()
+                        .WithMany("Executors")
                         .HasForeignKey("IdCompany")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -361,13 +300,13 @@ namespace WebApplication1.Migrations
             modelBuilder.Entity("WebApplication1.Models.ExecutorHasService", b =>
                 {
                     b.HasOne("WebApplication1.Models.Executor", "Executor")
-                        .WithMany()
+                        .WithMany("ExecutorHasServices")
                         .HasForeignKey("IdExecutor")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("WebApplication1.Models.Service", "Service")
-                        .WithMany()
+                        .WithMany("ExecutorHasServices")
                         .HasForeignKey("IdService")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -379,24 +318,26 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Order", b =>
                 {
-                    b.HasOne("WebApplication1.Models.Client", null)
-                        .WithMany("Orders")
-                        .HasForeignKey("ClientIdClient");
-
                     b.HasOne("WebApplication1.Models.Client", "Client")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("IdClient")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("WebApplication1.Models.ClientAddress", "ClientAddress")
-                        .WithMany()
+                        .WithMany("Orders")
                         .HasForeignKey("IdClientAddress")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebApplication1.Models.Service", "Service")
+                    b.HasOne("WebApplication1.Models.Company", "Company")
                         .WithMany()
+                        .HasForeignKey("IdCompany")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplication1.Models.Service", "Service")
+                        .WithMany("Orders")
                         .HasForeignKey("IdService")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -405,19 +346,21 @@ namespace WebApplication1.Migrations
 
                     b.Navigation("ClientAddress");
 
+                    b.Navigation("Company");
+
                     b.Navigation("Service");
                 });
 
             modelBuilder.Entity("WebApplication1.Models.OrderHasExecutor", b =>
                 {
                     b.HasOne("WebApplication1.Models.Executor", "Executor")
-                        .WithMany()
+                        .WithMany("OrderHasExecutors")
                         .HasForeignKey("IdExecutor")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("WebApplication1.Models.Order", "Order")
-                        .WithMany()
+                        .WithMany("OrderHasExecutors")
                         .HasForeignKey("IdOrder")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -429,18 +372,14 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Review", b =>
                 {
-                    b.HasOne("WebApplication1.Models.Client", null)
-                        .WithMany("Reviews")
-                        .HasForeignKey("ClientIdClient");
-
                     b.HasOne("WebApplication1.Models.Client", "Client")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("IdClient")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("WebApplication1.Models.Order", "Order")
-                        .WithMany()
+                        .WithMany("Reviews")
                         .HasForeignKey("IdOrder")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -452,12 +391,8 @@ namespace WebApplication1.Migrations
 
             modelBuilder.Entity("WebApplication1.Models.Service", b =>
                 {
-                    b.HasOne("WebApplication1.Models.Company", null)
-                        .WithMany("Services")
-                        .HasForeignKey("CompanyIdCompany");
-
                     b.HasOne("WebApplication1.Models.Company", "Company")
-                        .WithMany()
+                        .WithMany("Services")
                         .HasForeignKey("IdCompany")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -474,11 +409,37 @@ namespace WebApplication1.Migrations
                     b.Navigation("Reviews");
                 });
 
+            modelBuilder.Entity("WebApplication1.Models.ClientAddress", b =>
+                {
+                    b.Navigation("Orders");
+                });
+
             modelBuilder.Entity("WebApplication1.Models.Company", b =>
                 {
                     b.Navigation("Executors");
 
                     b.Navigation("Services");
+                });
+
+            modelBuilder.Entity("WebApplication1.Models.Executor", b =>
+                {
+                    b.Navigation("ExecutorHasServices");
+
+                    b.Navigation("OrderHasExecutors");
+                });
+
+            modelBuilder.Entity("WebApplication1.Models.Order", b =>
+                {
+                    b.Navigation("OrderHasExecutors");
+
+                    b.Navigation("Reviews");
+                });
+
+            modelBuilder.Entity("WebApplication1.Models.Service", b =>
+                {
+                    b.Navigation("ExecutorHasServices");
+
+                    b.Navigation("Orders");
                 });
 #pragma warning restore 612, 618
         }

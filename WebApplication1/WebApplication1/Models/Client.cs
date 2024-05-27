@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WebApplication1.Models
 {
@@ -18,8 +19,12 @@ namespace WebApplication1.Models
         public string ClientPhone { get; set; }
 
         // Navigation properties
+
+        [JsonIgnore]
         public ICollection<ClientAddress> ClientAddresses { get; set; }
+        [JsonIgnore]
         public ICollection<Order> Orders { get; set; }
+        [JsonIgnore]
         public ICollection<Review> Reviews { get; set; }
     }
 }

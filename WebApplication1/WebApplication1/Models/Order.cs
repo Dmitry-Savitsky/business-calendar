@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Text.Json.Serialization;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -12,7 +13,6 @@ namespace WebApplication1.Models
 
         [StringLength(255)]
         public string OrderComment { get; set; }
-
 
         [Required]
         public DateTime OrderStart { get; set; }
@@ -30,5 +30,15 @@ namespace WebApplication1.Models
 
         public int IdClientAddress { get; set; }
         public ClientAddress? ClientAddress { get; set; }
+
+        public int IdCompany { get; set; }
+        public Company? Company { get; set; }
+
+        // Navigation properties
+        [JsonIgnore]
+        public ICollection<Review> Reviews { get; set; }
+
+        [JsonIgnore]
+        public ICollection<OrderHasExecutor> OrderHasExecutors { get; set; }
     }
 }

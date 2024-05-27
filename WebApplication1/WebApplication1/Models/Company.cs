@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 using WebApplication1.Models;
 
 namespace WebApplication1.Models
@@ -25,7 +26,9 @@ namespace WebApplication1.Models
         public string Password { get; set; }
 
         // Navigation properties
+        [JsonIgnore]
         public ICollection<Executor> Executors { get; set; }
+        [JsonIgnore]
         public ICollection<Service> Services { get; set; }
     }
 }

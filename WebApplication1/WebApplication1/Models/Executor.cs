@@ -1,5 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace WebApplication1.Models
 {
@@ -19,5 +21,12 @@ namespace WebApplication1.Models
 
         public int IdCompany { get; set; }
         public Company? Company { get; set; }
+
+        // Navigation properties
+        [JsonIgnore]
+        public ICollection<OrderHasExecutor> OrderHasExecutors { get; set; }
+
+        [JsonIgnore]
+        public ICollection<ExecutorHasService> ExecutorHasServices { get; set; }
     }
 }

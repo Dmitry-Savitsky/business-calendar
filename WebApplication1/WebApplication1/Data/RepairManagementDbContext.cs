@@ -7,7 +7,7 @@ namespace EntityFrameworkCore.MySQL.Data
 {
     public class RepairManagementDbContext : DbContext
     {
-        public RepairManagementDbContext(DbContextOptions<RepairManagementDbContext> options): base(options)
+        public RepairManagementDbContext(DbContextOptions<RepairManagementDbContext> options) : base(options)
         {
         }
 
@@ -20,11 +20,9 @@ namespace EntityFrameworkCore.MySQL.Data
         public DbSet<Review> Reviews { get; set; }
         public DbSet<OrderHasExecutor> OrderHasExecutors { get; set; }
         public DbSet<ExecutorHasService> ExecutorHasServices { get; set; }
-        public DbSet<CompanyHasOrder> CompanyHasOrders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             // Client
             modelBuilder.Entity<Client>()
                 .HasKey(c => c.IdClient);
@@ -38,7 +36,7 @@ namespace EntityFrameworkCore.MySQL.Data
                 .HasKey(e => e.IdExecutor);
             modelBuilder.Entity<Executor>()
                 .HasOne(e => e.Company)
-                .WithMany() // If you have a collection of Executors in Company, replace with .WithMany(c => c.Executors)
+                .WithMany(c => c.Executors)
                 .HasForeignKey(e => e.IdCompany);
 
             // Service
@@ -46,7 +44,7 @@ namespace EntityFrameworkCore.MySQL.Data
                 .HasKey(s => s.IdService);
             modelBuilder.Entity<Service>()
                 .HasOne(s => s.Company)
-                .WithMany() // If you have a collection of Services in Company, replace with .WithMany(c => c.Services)
+                .WithMany(c => c.Services)
                 .HasForeignKey(s => s.IdCompany);
 
             // ClientAddress
@@ -54,7 +52,7 @@ namespace EntityFrameworkCore.MySQL.Data
                 .HasKey(ca => ca.IdClientAddress);
             modelBuilder.Entity<ClientAddress>()
                 .HasOne(ca => ca.Client)
-                .WithMany() // If you have a collection of ClientAddresses in Client, replace with .WithMany(c => c.ClientAddresses)
+                .WithMany(c => c.ClientAddresses)
                 .HasForeignKey(ca => ca.IdClient);
 
             // Order
@@ -62,27 +60,31 @@ namespace EntityFrameworkCore.MySQL.Data
                 .HasKey(o => o.IdOrder);
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.Client)
-                .WithMany() // If you have a collection of Orders in Client, replace with .WithMany(c => c.Orders)
+                .WithMany(c => c.Orders)
                 .HasForeignKey(o => o.IdClient);
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.Service)
-                .WithMany() // If you have a collection of Orders in Service, replace with .WithMany(s => s.Orders)
+                .WithMany(s => s.Orders)
                 .HasForeignKey(o => o.IdService);
             modelBuilder.Entity<Order>()
                 .HasOne(o => o.ClientAddress)
-                .WithMany() // If you have a collection of Orders in ClientAddress, replace with .WithMany(ca => ca.Orders)
+                .WithMany(ca => ca.Orders)
                 .HasForeignKey(o => o.IdClientAddress);
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Company)
+                .WithMany()
+                .HasForeignKey(o => o.IdCompany);
 
             // Review
             modelBuilder.Entity<Review>()
                 .HasKey(r => r.IdReview);
             modelBuilder.Entity<Review>()
                 .HasOne(r => r.Client)
-                .WithMany() // If you have a collection of Reviews in Client, replace with .WithMany(c => c.Reviews)
+                .WithMany(c => c.Reviews)
                 .HasForeignKey(r => r.IdClient);
             modelBuilder.Entity<Review>()
                 .HasOne(r => r.Order)
-                .WithMany() // If you have a collection of Reviews in Order, replace with .WithMany(o => o.Reviews)
+                .WithMany(o => o.Reviews)
                 .HasForeignKey(r => r.IdOrder);
 
             // OrderHasExecutor (Many-to-Many)
@@ -90,11 +92,11 @@ namespace EntityFrameworkCore.MySQL.Data
                 .HasKey(oe => new { oe.IdOrder, oe.IdExecutor });
             modelBuilder.Entity<OrderHasExecutor>()
                 .HasOne(oe => oe.Order)
-                .WithMany() // If you have a collection property, replace with .WithMany(o => o.OrderHasExecutors)
+                .WithMany(o => o.OrderHasExecutors)
                 .HasForeignKey(oe => oe.IdOrder);
             modelBuilder.Entity<OrderHasExecutor>()
                 .HasOne(oe => oe.Executor)
-                .WithMany() // If you have a collection property, replace with .WithMany(e => e.OrderHasExecutors)
+                .WithMany(e => e.OrderHasExecutors)
                 .HasForeignKey(oe => oe.IdExecutor);
 
             // ExecutorHasService (Many-to-Many)
@@ -102,24 +104,12 @@ namespace EntityFrameworkCore.MySQL.Data
                 .HasKey(es => new { es.IdExecutor, es.IdService });
             modelBuilder.Entity<ExecutorHasService>()
                 .HasOne(es => es.Executor)
-                .WithMany() // If you have a collection property, replace with .WithMany(e => e.ExecutorHasServices)
+                .WithMany(e => e.ExecutorHasServices)
                 .HasForeignKey(es => es.IdExecutor);
             modelBuilder.Entity<ExecutorHasService>()
                 .HasOne(es => es.Service)
-                .WithMany() // If you have a collection property, replace with .WithMany(s => s.ExecutorHasServices)
+                .WithMany(s => s.ExecutorHasServices)
                 .HasForeignKey(es => es.IdService);
-
-            // CompanyHasOrder (Many-to-Many)
-            modelBuilder.Entity<CompanyHasOrder>()
-                .HasKey(co => new { co.CompanyIdCompany, co.OrderIdOrder });
-            modelBuilder.Entity<CompanyHasOrder>()
-                .HasOne(co => co.Company)
-                .WithMany() // If you have a collection property, replace with .WithMany(c => c.CompanyHasOrders)
-                .HasForeignKey(co => co.CompanyIdCompany);
-            modelBuilder.Entity<CompanyHasOrder>()
-                .HasOne(co => co.Order)
-                .WithMany() // If you have a collection property, replace with .WithMany(o => o.CompanyHasOrders)
-                .HasForeignKey(co => co.OrderIdOrder);
         }
     }
 }

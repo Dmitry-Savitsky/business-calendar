@@ -63,17 +63,11 @@ namespace WebApplication1.Migrations
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Address = table.Column<string>(type: "varchar(150)", maxLength: 150, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    IdClient = table.Column<int>(type: "int", nullable: false),
-                    ClientIdClient = table.Column<int>(type: "int", nullable: true)
+                    IdClient = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_ClientAddresses", x => x.IdClientAddress);
-                    table.ForeignKey(
-                        name: "FK_ClientAddresses_Clients_ClientIdClient",
-                        column: x => x.ClientIdClient,
-                        principalTable: "Clients",
-                        principalColumn: "IdClient");
                     table.ForeignKey(
                         name: "FK_ClientAddresses_Clients_IdClient",
                         column: x => x.IdClient,
@@ -93,17 +87,11 @@ namespace WebApplication1.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ExecutorPhone = table.Column<string>(type: "varchar(45)", maxLength: 45, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    IdCompany = table.Column<int>(type: "int", nullable: false),
-                    CompanyIdCompany = table.Column<int>(type: "int", nullable: true)
+                    IdCompany = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Executors", x => x.IdExecutor);
-                    table.ForeignKey(
-                        name: "FK_Executors_Companies_CompanyIdCompany",
-                        column: x => x.CompanyIdCompany,
-                        principalTable: "Companies",
-                        principalColumn: "IdCompany");
                     table.ForeignKey(
                         name: "FK_Executors_Companies_IdCompany",
                         column: x => x.IdCompany,
@@ -122,18 +110,12 @@ namespace WebApplication1.Migrations
                     ServiceName = table.Column<string>(type: "varchar(255)", maxLength: 255, nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ServiceType = table.Column<int>(type: "int", nullable: false),
-                    ServicePrice = table.Column<int>(type: "int", nullable: true),
-                    IdCompany = table.Column<int>(type: "int", nullable: false),
-                    CompanyIdCompany = table.Column<int>(type: "int", nullable: true)
+                    ServicePrice = table.Column<int>(type: "int", nullable: false),
+                    IdCompany = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Services", x => x.IdService);
-                    table.ForeignKey(
-                        name: "FK_Services_Companies_CompanyIdCompany",
-                        column: x => x.CompanyIdCompany,
-                        principalTable: "Companies",
-                        principalColumn: "IdCompany");
                     table.ForeignKey(
                         name: "FK_Services_Companies_IdCompany",
                         column: x => x.IdCompany,
@@ -183,7 +165,7 @@ namespace WebApplication1.Migrations
                     IdClient = table.Column<int>(type: "int", nullable: false),
                     IdService = table.Column<int>(type: "int", nullable: false),
                     IdClientAddress = table.Column<int>(type: "int", nullable: false),
-                    ClientIdClient = table.Column<int>(type: "int", nullable: true)
+                    IdCompany = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -195,46 +177,22 @@ namespace WebApplication1.Migrations
                         principalColumn: "IdClientAddress",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Orders_Clients_ClientIdClient",
-                        column: x => x.ClientIdClient,
-                        principalTable: "Clients",
-                        principalColumn: "IdClient");
-                    table.ForeignKey(
                         name: "FK_Orders_Clients_IdClient",
                         column: x => x.IdClient,
                         principalTable: "Clients",
                         principalColumn: "IdClient",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Orders_Services_IdService",
-                        column: x => x.IdService,
-                        principalTable: "Services",
-                        principalColumn: "IdService",
-                        onDelete: ReferentialAction.Cascade);
-                })
-                .Annotation("MySql:CharSet", "utf8mb4");
-
-            migrationBuilder.CreateTable(
-                name: "CompanyHasOrders",
-                columns: table => new
-                {
-                    CompanyIdCompany = table.Column<int>(type: "int", nullable: false),
-                    OrderIdOrder = table.Column<int>(type: "int", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_CompanyHasOrders", x => new { x.CompanyIdCompany, x.OrderIdOrder });
-                    table.ForeignKey(
-                        name: "FK_CompanyHasOrders_Companies_CompanyIdCompany",
-                        column: x => x.CompanyIdCompany,
+                        name: "FK_Orders_Companies_IdCompany",
+                        column: x => x.IdCompany,
                         principalTable: "Companies",
                         principalColumn: "IdCompany",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_CompanyHasOrders_Orders_OrderIdOrder",
-                        column: x => x.OrderIdOrder,
-                        principalTable: "Orders",
-                        principalColumn: "IdOrder",
+                        name: "FK_Orders_Services_IdService",
+                        column: x => x.IdService,
+                        principalTable: "Services",
+                        principalColumn: "IdService",
                         onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
@@ -274,17 +232,11 @@ namespace WebApplication1.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ReviewRating = table.Column<int>(type: "int", nullable: false),
                     IdClient = table.Column<int>(type: "int", nullable: false),
-                    IdOrder = table.Column<int>(type: "int", nullable: false),
-                    ClientIdClient = table.Column<int>(type: "int", nullable: true)
+                    IdOrder = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Reviews", x => x.IdReview);
-                    table.ForeignKey(
-                        name: "FK_Reviews_Clients_ClientIdClient",
-                        column: x => x.ClientIdClient,
-                        principalTable: "Clients",
-                        principalColumn: "IdClient");
                     table.ForeignKey(
                         name: "FK_Reviews_Clients_IdClient",
                         column: x => x.IdClient,
@@ -301,29 +253,14 @@ namespace WebApplication1.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateIndex(
-                name: "IX_ClientAddresses_ClientIdClient",
-                table: "ClientAddresses",
-                column: "ClientIdClient");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_ClientAddresses_IdClient",
                 table: "ClientAddresses",
                 column: "IdClient");
 
             migrationBuilder.CreateIndex(
-                name: "IX_CompanyHasOrders_OrderIdOrder",
-                table: "CompanyHasOrders",
-                column: "OrderIdOrder");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_ExecutorHasServices_IdService",
                 table: "ExecutorHasServices",
                 column: "IdService");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Executors_CompanyIdCompany",
-                table: "Executors",
-                column: "CompanyIdCompany");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Executors_IdCompany",
@@ -336,11 +273,6 @@ namespace WebApplication1.Migrations
                 column: "IdExecutor");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Orders_ClientIdClient",
-                table: "Orders",
-                column: "ClientIdClient");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Orders_IdClient",
                 table: "Orders",
                 column: "IdClient");
@@ -351,14 +283,14 @@ namespace WebApplication1.Migrations
                 column: "IdClientAddress");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Orders_IdCompany",
+                table: "Orders",
+                column: "IdCompany");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Orders_IdService",
                 table: "Orders",
                 column: "IdService");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Reviews_ClientIdClient",
-                table: "Reviews",
-                column: "ClientIdClient");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Reviews_IdClient",
@@ -371,11 +303,6 @@ namespace WebApplication1.Migrations
                 column: "IdOrder");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Services_CompanyIdCompany",
-                table: "Services",
-                column: "CompanyIdCompany");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Services_IdCompany",
                 table: "Services",
                 column: "IdCompany");
@@ -384,9 +311,6 @@ namespace WebApplication1.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "CompanyHasOrders");
-
             migrationBuilder.DropTable(
                 name: "ExecutorHasServices");
 
